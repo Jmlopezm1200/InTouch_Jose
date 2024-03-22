@@ -361,21 +361,21 @@
                         <div class="form sign-up">
                             <div class="input-group">
                                 <i class='bx bxs-user'></i>
-                                <input type="text" placeholder="Username">
+                                <input id="username-input-signup" type="text" placeholder="Username">
                             </div>
                             <div class="input-group">
                                 <i class='bx bx-mail-send'></i>
-                                <input type="email" placeholder="Email">
+                                <input id="email-input-signup" type="email" placeholder="Email">
                             </div>
                             <div class="input-group">
                                 <i class='bx bxs-lock-alt'></i>
-                                <input type="password" placeholder="Password">
+                                <input id="password-input-signup" type="password" placeholder="Password">
                             </div>
                             <div class="input-group">
                                 <i class='bx bxs-lock-alt'></i>
-                                <input type="password" placeholder="Confirm password">
+                                <input id="password-two-input-signup" type="password" placeholder="Confirm password">
                             </div>
-                            <button>
+                            <button id="submit-signup">
                                 Sign up
                             </button>
                             <p>
@@ -397,17 +397,15 @@
                         <div class="form sign-in">
                             <div class="input-group">
                                 <i class='bx bxs-user'></i>
-                                <input type="text" placeholder="Username">
+                                <input id="email-input-signin" type="text" placeholder="Username">
                             </div>
                             <div class="input-group">
                                 <i class='bx bxs-lock-alt'></i>
-                                <input type="password" placeholder="Password">
+                                <input id="password-input-signin" type="password" placeholder="Password">
                             </div>
-                            <a href="D:\Jose\ELECTIVA PREDICTIA\FrontEnd\light-bootstrap-dashboard-master\BS3\dashboard.html">
-                                <button>
+                                <button id="submit-signin">
                                     Sign in
                                 </button>
-                            </a>
                             <p>
                                 <b>
                                     Forgot password?
@@ -471,8 +469,8 @@
                 container.classList.add('sign-in')
             }, 200)
         </script>
-        <script src="js/firebase.js" type="module"></script>
-        <script src="js/signupForm.js" type="module"></script>
+        <script src="./firebase.js" type="module"></script>
+        <script src="./signupForm.js" type="module"></script>
 
     </body>
 </html>
