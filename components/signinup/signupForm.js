@@ -21,7 +21,7 @@ submitBtnSignup.addEventListener("click", ()=>{
 
 submitBtnSignin.addEventListener("click", ()=>{
     signInWithEmailAndPassword(auth, emailSignin.value, passwordSignin.value).then((userCredencial)=>{
-        location.href = "/startbootstrap-grayscale-gh-pages/components/dashboard/dashboard.html"
+        location.href = "../dashboard/dashboard.html"
     }).catch((error) => {
         console.log(error.message);
       });
