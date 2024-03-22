@@ -21,7 +21,7 @@ submitBtnSignup.addEventListener("click", ()=>{
 
 submitBtnSignin.addEventListener("click", ()=>{
     signInWithEmailAndPassword(auth, emailSignin.value, passwordSignin.value).then((userCredencial)=>{
-        location.href = "../dashboard/dashboard.html"
+        location.href= 'smart-grow/components/Dashboard/BS3/dashboard.html';
     }).catch((error) => {
         console.log(error.message);
       });
