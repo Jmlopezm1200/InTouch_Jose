@@ -26,9 +26,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#information">Information</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Overview">Overview</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#information">Why Choose Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#AboutUs">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href=".\components\signinup\login_signup.html">Login</a></li>
                     </ul>
                 </div>
@@ -46,12 +47,12 @@
             </div>
         </header>
         <!-- About-->
-        <section class="about-section text-center" id="about">
+        <section class="about-section text-center" id="Overview">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="text-white mb-4">ABOUT US</h2>
-                        <p class="text-white-50">
+                        <h2 class="text-white mb-4">Overview</h2>
+                        <p class="text-white-50 text-justify">
                             Explore our predictive maintenance platform for orchards where cutting-edge technology meets agricultural expertise to enhance your crop yield. With advanced data analytics and real-time monitoring systems, we help you anticipate and prevent issues before they impact your harvest. Discover how you can farm smarter and more sustainably with us.            </p>
                     </div>
                 </div>
@@ -59,6 +60,7 @@
         </section>
         <!-- Projects-->
         <section class="projects-section bg-light" id="information">
+            <h2 class="text-black mb-4 text-center">Why Choose Us</h2>
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
@@ -105,52 +107,37 @@
                 </div>
             </div>
         </section>
-        <!-- Signup-->
-        <section class="signup-section" id="contact">
+
+        <!-- Contact-->
+        <section class="signup-section" id="AboutUs">
+            <h2 class="text-white mb-4 text-center">About Us</h2>
             <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to contact with us</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
+                <div class="row gx-4 gx-lg-5" style="justify-content: center; ">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100" style="box-shadow:8px 8px 8px rgba(0, 0, 0, 0.1) ;">
+                            <div class="card-body text-center">
+                                <img src="/components/Dashboard/assets/img/Jose Lopez.png"  width="150" height="185">
+                                <h4 class="m-0">Jose Lopez</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">Mechatronic Engineer adept in both backend and frontend development, specializing in robotic systems, mechatronic design, and automation. Skilled in Python, PHP, and Java. Proven track record in delivering innovative solutions for robotics and mechatronic design.</div>
                             </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                        </form>
+                        </div>
                     </div>
-                </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100" style="box-shadow:8px 8px 8px rgba(0, 0, 0, 0.1) ;">
+                            <div class="card-body text-center">
+                                <img src="/components/Dashboard/assets/img/Jose Lopez.png" width="150" height="185" >
+                                <h4 class=" m-0">Brayan Escuraina</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">Experienced Mechatronic Engineer with expertise in AI, automation, and communication systems. Proficient in backend and frontend development, with a focus on creating intelligent applications and seamless communication protocols. Strong background in app design and user interface development.</div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </section>
-        <!-- Contact-->
-        <section class="contact-section bg-black">
+    
+        <section class="contact-section bg-black" id="Contact">
+            <h2 class="text-white mb-4 text-center">Contact</h2>
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-4 mb-3 mb-md-0">
@@ -196,7 +183,7 @@
         <script type="module" src="js/scripts.js"></script>
 
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Smart Grow &copy; 2024</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

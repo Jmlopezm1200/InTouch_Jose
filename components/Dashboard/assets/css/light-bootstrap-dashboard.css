@@ -641,13 +641,13 @@ body>.navbar-collapse[data-color="azure"]:after {
 
 .sidebar[data-color="green"]:after,
 body>.navbar-collapse[data-color="green"]:after {
-    background: #87CB16;
-    background: -moz-linear-gradient(top, #87CB16 0%, #6dc030 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #87CB16), color-stop(100%, #6dc030));
-    background: -webkit-linear-gradient(top, #87CB16 0%, #6dc030 100%);
-    background: -o-linear-gradient(top, #87CB16 0%, #6dc030 100%);
-    background: -ms-linear-gradient(top, #87CB16 0%, #6dc030 100%);
-    background: linear-gradient(to bottom, #87CB16 0%, #6dc030 100%);
+    background: #607970;
+    background: -moz-linear-gradient(top, #607970 0%, #607970 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #607970), color-stop(100%, #607970));
+    background: -webkit-linear-gradient(top, #607970 0%, #607970 100%);
+    background: -o-linear-gradient(top, #607970 0%, #607970 100%);
+    background: -ms-linear-gradient(top, #607970 0%, #607970 100%);
+    background: linear-gradient(to bottom, #607970 0%, #607970 100%);
     background-size: 150% 150%;
 }
 
