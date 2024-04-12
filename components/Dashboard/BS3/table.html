@@ -124,10 +124,10 @@
                     <tbody></tbody>
                   </table>
                 
-                  <div id="paginacion"></div>
+                <!--   <div id="paginacion"></div> -->
                 
-                  <script type="module" src="/../../components/signinup/firebase.js"></script>
-                  <script type="module" src="/js/table.js"></script>               
+                  <script type="module" src="../../signinup/firebase.js"></script>
+                  <script type="module" src="../../../js/table.js"></script>               
 
 </body>
         <!--   Core JS Files   -->
@@ -140,9 +140,6 @@
     <!--  Notifications Plugin    -->
     <script src="assets/js/bootstrap-notify.js"></script>
 
-    <!--  Google Maps Plugin    -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-
     <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
 	<script src="assets/js/light-bootstrap-dashboard.js?v=1.4.0"></script>
 
@@ -150,3 +147,32 @@
 	<script src="assets/js/demo.js"></script>
 
 </html>
+
+<style>
+    #tablaDatos {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+#tablaDatos th,
+#tablaDatos td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#tablaDatos th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+#tablaDatos tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tablaDatos tbody tr:hover {
+  background-color: #ddd;
+}
+
+</style>

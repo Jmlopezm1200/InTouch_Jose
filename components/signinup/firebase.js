@@ -22,6 +22,3 @@ const firebaseConfig = {
 export const app = initializeApp(firebaseConfig);
 export const analytics = getAnalytics(app);
 export const auth = getAuth(app);
-
-// Después de inicializar la aplicación Firebase en firebase.js
-console.log("Firebase inicializado correctamente.");
