@@ -43,7 +43,7 @@ function animate(){
 }
 
 let loader = new STLLoader();
-loader.load('smart-grow/assets/3dmodel/Greenhouse-2.stl' , (model)=>{
+loader.load('../smart-grow/assets/3dmodel/Greenhouse-2.stl' , (model)=>{
     object = new THREE.Mesh(
         model,
         new THREE.MeshPhongMaterial({ color: 0x333333, specular: 0x111111, shininess: 30 }) // Azul
