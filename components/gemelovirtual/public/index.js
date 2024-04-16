@@ -49,7 +49,7 @@ loader.load('/smart-grow/assets/3dmodel/Greenhouse-2.stl' , (model)=>{
         new THREE.MeshPhongMaterial({ color: 0x333333, specular: 0x111111, shininess: 30 }) // Azul
     );
     object.scale.set(0.1, 0.1, 0.1);
-    object.position.set(4,0,0);
+    object.position.set(0,0,0);
     object.rotation.x = -Math.PI/2;
     init();
 })
